@@ -29,18 +29,13 @@
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/> </a>
 <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="Flask" width="40" height="40"/> </a>
 <a  target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" alt="C" width="40" height="40"/> </a>
-<a  target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" alt="CPlusPlus" width="40" height="40"/> </a>
-<a  target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" alt="CSharp" width="40" height="40"/> </a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="HTML" width="40" height="40"/> </a>
-<a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/> </a>
+<a href="https://www.microsoft.com/sql-server" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/microsoft-sql/msql-original.svg" alt="Microsoft SQL" width="40" height="40"/> </a>
 <a href="https://www.postman.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" alt="Git" width="40" height="40"/> </a>
 </p>
 
 ##
 
-### About projects in Java
+### Java projects
 
 -**<a href="https://github.com/Sirazetdinova/LinkTracker">Link Tracker</a>** a bot skeleton with network calls, HTTP clients, and a task scheduler for link checking. MVP supports message sending and user interaction
 
@@ -55,7 +50,7 @@
 -**<a href="https://github.com/Sirazetdinova/HangmanGame">Hangman Game</a>** console-based Hangman game with word guessing, limited attempts, and visual feedback for incorrect guesses. Supports difficulty levels and word categories
 
 
-### About projects in C
+### C projects
 
 -**<a href="https://github.com/Sirazetdinova/StringLib">String Lib</a>** implementation of your own version of the string.h library
 
