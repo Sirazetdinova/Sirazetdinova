@@ -8,58 +8,65 @@
 </div>
 
 
-
 <h1 align="center">Hi there, I'm Alina</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Junior developer and just a nice person</h3>
+<h3 align="center">Java developer and just a nice person</h3>
 
 
 ### Education:
-- I'm in my third year of studying information systems and technologies at **<a href='https://kpfu.ru' target="_blank">Kazan Federal University</a>**
-- I'm currently studying in the core program at **<a href="https://education.tbank.ru/academy/backend/">Backend Academy</a>** from Tinkoff
-- I'm enrolled in the core program at **<a href="https://21-school.ru/">School 21</a>** from Sberbank
+- **<a href='https://kpfu.ru' target="_blank">Kazan Federal University</a>** Information Systems and Technologies, 4th year
+- **<a href="https://education.tbank.ru/academy/backend/">T-Bank</a>** Java, SRE
+- **<a href="https://practicum.yandex.ru/">Yandex</a>** Python
+- **<a href="https://21-school.ru/">Sberbank</a>** C, Linux 
 <!-- ### BIO :notebook:	 -->
 
 ##
 
-### Languages and Tools :
+### Work experience (2 years 9 months):
+**SK Sfera** | Programmer (July 2024 - Present) <br> 
+Developing Java microservices for document management, writing technical documentation for code
+
+**<a href='https://3.shkolkovo.online/Shkolkovo' target="_blank">Shkolkovo</a>** | Programming Curator (March 2023 - July 2024) <br>
+Teaching algorithms, code review: improving code readability and algorithm efficiency
+
+##
+
+### Technical skills:
 <p align="left">
-<a href="https://www.java.com/ru/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/> </a>
-<a href="https://spring.io/projects/spring-framework" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg" alt="Spring" width="40" height="40"/> </a>
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/> </a>
-<a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="Flask" width="40" height="40"/> </a>
-<a  target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" alt="C" width="40" height="40"/> </a>
-<a href="https://www.microsoft.com/sql-server" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="Microsoft SQL" width="40" height="40"/> </a>
-<a href="https://www.postman.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/> </a>
+Programming languages: Java, Python <br>
+Tools: Spring Boot, API, JWT, CI/CD, Kubernetes, Docker, Postman, Linux, Nginx, Resilience4j, JUnit, Mockito, Apache Kafka, Sage, ELK <br>
+Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis, Flyway, Liquibase <br>
 </p>
 
 ##
 
-### Java projects
+### Main projects
 
--**<a href="https://github.com/Sirazetdinova/LinkTracker">Link Tracker</a>** a bot skeleton with network calls, HTTP clients, and a task scheduler for link checking. MVP supports message sending and user interaction
+**Tinkoff | Microservice application for tracking updates on StackOverflow and GitHub** 
+* Telegram Bot on **Java** using **Spring Boot** interacts with users. **Telegram Bot API** supports commands, finite state machines using **Spring State Machine**, and notification modes
+* Scrapper multithreaded scheduler on Spring Boot with custom HTTP clients on **Spring WebClient** for GitHub and StackOverflow APIs, and with **Resilience4j** retry policy (Retry, Circuit Breaker)
+* Asynchronous interaction between **Apache Kafka** and **HTTP** services. Dead Letter Queues and caching are implemented in **Redis** using **Spring Data Redis**.
+* Database access is configured using **PostgreSQL** and **JPA/Hibernate**, and **Liquibase** is used to manage migrations.
+* **Prometheus** is configured to collect **JVM** metrics, **RED** metrics collection is configured in Prometheus, with visualization using **Grafana** and **Micrometer**.
+* Services are in isolated **Docker** containers with **Kubernetes** orchestration and local launch with **Docker Compose**. **Swagger** is used for documentation.
+* The code is covered by tests using **Testcontainers** for reliability.
 
--**<a href="https://github.com/Sirazetdinova/ReflectionBenchmark">Reflection Benchmark</a>** benchmark tests to measure performance of different method versions, focusing on nanosecond precision using specialized libraries
+**MTS | Distributed system for managing bank deposits** 
+* Microservice architecture in **Java** using **Spring Boot**, service interaction provided by **Spring RestTemplate**
+* Central hub eureka-server based on **Eureka** detects and registers microservices
+* Microservice customer-service stores customer data and generates **JWT** tokens for authentication using **Spring Security**
+* Microservice aggregator-service as an **API Gateway** on **Spring Cloud Gateway** validates **JWT** tokens before routing
+* Microservices deposit-service and account-service handle deposit and account operations, respectively
+* Data is stored in **PostgreSQL**, and **Flyway** is used to manage migrations.
+* The code is covered by tests using **JUnit** and **Mockito** for reliability.
 
--**<a href="https://github.com/Sirazetdinova/FractalFlame">Fractal Flame</a>** algorithm for generating fractal flame images using Chaos Game, with single-threaded and multi-threaded implementations
-
--**<a href="https://github.com/Sirazetdinova/LogAnalyzer">Log Analyzer</a>** a tool to analyze NGINX logs, accepting file paths or URLs, optional time parameters, and output formats
-
--**<a href="https://github.com/Sirazetdinova/MazeGenerator">Maze Generator</a>** console app for generating mazes and finding paths, with visualization and support for varying complexities
-
--**<a href="https://github.com/Sirazetdinova/HangmanGame">Hangman Game</a>** console-based Hangman game with word guessing, limited attempts, and visual feedback for incorrect guesses. Supports difficulty levels and word categories
-
-
-### C projects
-
--**<a href="https://github.com/Sirazetdinova/StringLib">String Lib</a>** implementation of your own version of the string.h library
-
--**<a href="https://github.com/Sirazetdinova/MathLib">Math Lib</a>** implementation of your own version of the math.h library
-
--**<a href="https://github.com/Sirazetdinova/Cat_Grep">Cat and Grep</a>** development of Bash utilities for working with text: cat, grep
-
--**<a href="https://github.com/Sirazetdinova/PingPong">Ping Pong</a>** implementation of the game of ping pong
-
+**Yandex | Social network for cooks** 
+* Backend implemented in **Python** with **Django** and **Django REST Framework**, including CRUD operations and authentication with **JWT** tokens and **Djoser**
+* Frontend is an SPA on **React** with JavaScript, Bootstrap styling, HTML, and CSS for the interface.
+* **PostgreSQL** database for prod and **SQLite** for dev and test, migration management with **Django ORM**.
+* Deployment with **Nginx** as a reverse proxy and **Gunicorn** for the WSGI server. Services in isolated **Docker** containers with **Docker Compose** orchestration.
+* The code is covered by **Pytest** tests and **Flake8**, **Ruff**, **Black**, and **Mypy**
+* **CI/CD** using **GitHub Actions** for test automation, building on Docker Hub, and deployment with notifications via **Telegram Bot API**. Added **Django Debug Toolbar**, **Postman**, and **Swagger** tools for debugging and documentation
 
 <!--
 **Sirazetdinova/Sirazetdinova** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
