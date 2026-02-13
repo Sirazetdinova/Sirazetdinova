@@ -22,7 +22,7 @@
 
 ##
 
-### Work experience (2 years 9 months):
+### Work experience (2 years 11 months):
 **SK Sfera** | Programmer (July 2024 - Present) <br> 
 Developing Java microservices for document management, writing technical documentation for code
 
@@ -54,12 +54,12 @@ Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis, Flyway, Liquibase <br>
 **MTS | Distributed system for managing bank deposits** 
 * Microservice architecture in **Java** using **Spring Boot**, service interaction provided by **Spring RestTemplate**
 * Central hub eureka-server based on **Eureka** detects and registers microservices
-* Microservice customer-service stores customer data and generates **JWT** tokens for authentication using **Spring Security**
-* Microservice aggregator-service as an **API Gateway** on **Spring Cloud Gateway** validates **JWT** tokens before routing
-* Microservices deposit-service and account-service handle deposit and account operations, respectively
+* Microservice <a href="https://github.com/Sirazetdinova/customer-service">customer-service</a> stores customer data and generates **JWT** tokens for authentication using **Spring Security**
+* Microservice <a href="https://github.com/Sirazetdinova/aggregator-service">aggregator-service</a> as an **API Gateway** on **Spring Cloud Gateway** validates **JWT** tokens before routing
+* Microservices <a href="https://github.com/Sirazetdinova/deposit-service">deposit-service</a> and <a href="https://github.com/Sirazetdinova/account-service">account-service</a> handle deposit and account operations, respectively
 * Data is stored in **PostgreSQL**, and **Flyway** is used to manage migrations.
 * The code is covered by tests using **JUnit** and **Mockito** for reliability.
-
+  
 **Yandex | Social network for cooks** 
 * Backend implemented in **Python** with **Django** and **Django REST Framework**, including CRUD operations and authentication with **JWT** tokens and **Djoser**
 * Frontend is an SPA on **React** with JavaScript, Bootstrap styling, HTML, and CSS for the interface.
