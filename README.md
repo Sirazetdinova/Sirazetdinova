@@ -34,7 +34,7 @@ Teaching algorithms, code review: improving code readability and algorithm effic
 ### Technical skills:
 <p align="left">
 Programming languages: Java, Python <br>
-Tools: Spring Boot, API, JWT, CI/CD, Kubernetes, Docker, Postman, Linux, Nginx, Resilience4j, JUnit, Mockito, Apache Kafka, Sage, ELK <br>
+Tools: Spring Boot, API, JWT, CI/CD, Kubernetes, Docker, Postman, Linux, Nginx, Resilience4j, JUnit, Mockito, Apache Kafka, Sage, Prometheus, Wireshark, REST API, Flask, FastAPI, Ansible, ELK, Swagger<br> 
 Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis, Flyway, Liquibase <br>
 </p>
 
