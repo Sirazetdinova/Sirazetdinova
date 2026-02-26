@@ -10,7 +10,7 @@
 
 <h1 align="center">Hi there, I'm Alina</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Java developer and just a nice person</h3>
+<h3 align="center">developer and just a nice person</h3>
 
 
 ### Education:
