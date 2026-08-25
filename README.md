@@ -14,27 +14,39 @@
 
 
 ### Education:
-- **<a href='https://kpfu.ru' target="_blank">Kazan Federal University</a>** Information Systems and Technologies, 4th year
-- **<a href="https://education.tbank.ru/academy/backend/">T-Bank</a>** Java, SRE
-- **<a href="https://practicum.yandex.ru/">Yandex</a>** Python
-- **<a href="https://21-school.ru/">Sberbank</a>** C, Linux 
+- **<a href='https://kpfu.ru' target="_blank">Kazan Federal University</a>** Information Systems and Technologies
+- **<a href="https://education.tbank.ru/academy/backend/">T-Bank</a>**
+- **<a href="https://practicum.yandex.ru/">Yandex</a>** 
+- **<a href="https://21-school.ru/">Sberbank</a>**
 <!-- ### BIO :notebook:	 -->
 
 ##
 
-### Work experience (2 years 11 months):
-**SK Sfera** | Programmer (July 2024 - Present) <br> 
-Developing Java microservices for document management, writing technical documentation for code
+### Work experience (3 years 3 months):
+
+**<a href='https://www.tbank.ru/' target="_blank">T-Bank</a>** | Developer (March 2026 – June 2026) <br>
+* Developed an asynchronous AI service to accelerate user request processing
+* Designed an event-driven architecture using Apache Kafka
+* Created user-friendly REST APIs
+* Optimized PostgreSQL queries
+* Implemented observability (logging, tracing, and error context)
+
+**SK Sfera** | Developer (July 2024 - February 2024) <br> 
+* Configured electronic document management in 1C for financial and legal operations (personal income tax, VAT)
+* Structured requirements in accordance with regulations
+* Set up remote access to the work environment via VPN
 
 **<a href='https://3.shkolkovo.online/Shkolkovo' target="_blank">Shkolkovo</a>** | Programming Curator (March 2023 - July 2024) <br>
-Teaching algorithms, code review: improving code readability and algorithm efficiency
+* Taught algorithms
+* Typeset instructional materials in LaTeX
+* Did code reviews focused on writing clean code
 
 ##
 
 ### Technical skills:
 <p align="left">
 Programming languages: Java, Python <br>
-Tools: Spring Boot, API, JWT, CI/CD, Kubernetes, Docker, Postman, Linux, Nginx, Resilience4j, JUnit, Mockito, Apache Kafka, Sage, Prometheus, Wireshark, REST API, Flask, FastAPI, Ansible, ELK, Swagger<br> 
+Tools: Spring Boot, Hibernate, JVM, JMM, Django, Flask, FastAPI, asyncio, Pydantic, RAG, REST API, WebSocket, gRPC, Swagger, JWT, Docker, Kubernetes, Helm, Ansible, CI/CD, Jenkins, GitHub Actions, Apache Kafka, Elasticsearch, Prometheus, Grafana, JUnit, Mockito, Playwright, Selenium, Pytest, Unittest, Allure, Requests, Linux, Git, Postman, Wireshark <br> 
 Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis, Flyway, Liquibase <br>
 </p>
 
