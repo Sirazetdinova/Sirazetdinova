@@ -24,22 +24,25 @@
 
 ### Work experience (3 years 4 months):
 
-**<a href='https://www.tbank.ru/' target="_blank">T-Bank</a>** | Developer (March 2026 – June 2026) <br>
-* Developed an asynchronous AI service to accelerate user request processing
-* Designed an event-driven architecture using Apache Kafka
-* Created user-friendly REST APIs
-* Optimized PostgreSQL queries
-* Implemented observability (logging, tracing, and error context)
+**<a href='https://www.tbank.ru/' target="_blank">T-Bank</a>** | Python Developer (March 2026 – Jule 2026) <br>
+Project: A high-load AI service built with FastAPI for processing user requests. 
+* Designed an event-driven architecture using Kafka, enabling asynchronous inter-service communication and real-time reporting updates.
+* Developed a REST API to enrich the context for AI recommendations, improving the accuracy of responses.
+* Implemented observability across the entire project (using Sentry SDK for logging and error context, and OpenTelemetry SDK for tracing), which facilitated the localization of errors to specific services.
+* Created an asynchronous HTTP client for interacting with external services, ensuring resilience during network failures.
+* Optimized SQL queries in PostgreSQL by configuring indexes, resolving N+1 issues, and setting up connection pooling, which reduced redundant database calls
 
-**SK Sfera** | Developer (July 2024 - February 2024) <br> 
-* Configured electronic document management in 1C for financial and legal operations (personal income tax, VAT)
-* Structured requirements in accordance with regulations
-* Set up remote access to the work environment via VPN
+**SK Sfera** | Python Developer (July 2024 - February 2024) <br> 
+Project: Development and implementation of an information system. 
+* Developed a microservices-based backend for the SK Sfera financial system, resulting in an official formal acceptance (implementation certificate) for the solution’s integration into the company’s infrastructure.
+* Automated data processing from 1C using Python, significantly reducing the need for manual data handling.
+* Implemented caching for frequently accessed data using Redis, decreasing the number of redundant database queries.
+* Reduced the time required for manual service startup and configuration by 50% by containerizing applications with Docker and configuring the Linux server environment for deployment.
 
 **<a href='https://3.shkolkovo.online/Shkolkovo' target="_blank">Shkolkovo</a>** | Programming Curator (March 2023 - July 2024) <br>
-* Taught algorithms
-* Typeset instructional materials in LaTeX
-* Did code reviews focused on writing clean code
+Project: Python Programming. 
+* Taught Python and algorithms, and conducted code reviews for over 1,000 students.
+* Developed a REST API using Flask for a social media project modeled after Twitter.
 
 ##
 
