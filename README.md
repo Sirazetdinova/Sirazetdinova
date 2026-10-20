@@ -22,7 +22,7 @@
 
 ##
 
-### Work experience (3 years 3 months):
+### Work experience (3 years 4 months):
 
 **<a href='https://www.tbank.ru/' target="_blank">T-Bank</a>** | Developer (March 2026 – June 2026) <br>
 * Developed an asynchronous AI service to accelerate user request processing
@@ -45,14 +45,22 @@
 
 ### Technical skills:
 <p align="left">
-Programming languages: Java, Python <br>
-Tools: Spring Boot, Hibernate, JVM, JMM, Django, Flask, FastAPI, asyncio, Pydantic, RAG, REST API, WebSocket, gRPC, Swagger, JWT, Docker, Kubernetes, Helm, Ansible, CI/CD, Jenkins, GitHub Actions, Apache Kafka, Elasticsearch, Prometheus, Grafana, JUnit, Mockito, Playwright, Selenium, Pytest, Unittest, Allure, Requests, Linux, Git, Postman, Wireshark <br> 
-Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis, Flyway, Liquibase <br>
+Programming languages: Python <br>
+Tools:  Flask, FastAPI, Django, REST API, asyncio, Linux, gRPC, Protobuf, RAG, LangGraph, PyTorch, transformers, Pydantic, Swagger, CI/CD, Kubernetes, Docker, Kafka, Pytest, Postman, Elasticsearch, Prometheus, Grafana, Playwright, Selenium, Unittest, Allure, Requests <br> 
+Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis <br>
 </p>
 
 ##
 
 ### Main projects
+
+**Yandex | Social network for cooks** 
+* Backend implemented in **Python** with **Django** and **Django REST Framework**, including CRUD operations and authentication with **JWT** tokens and **Djoser**
+* Frontend is an SPA on **React** with JavaScript, Bootstrap styling, HTML, and CSS for the interface.
+* **PostgreSQL** database for prod and **SQLite** for dev and test, migration management with **Django ORM**.
+* Deployment with **Nginx** as a reverse proxy and **Gunicorn** for the WSGI server. Services in isolated **Docker** containers with **Docker Compose** orchestration.
+* The code is covered by **Pytest** tests and **Flake8**, **Ruff**, **Black**, and **Mypy**
+* **CI/CD** using **GitHub Actions** for test automation, building on Docker Hub, and deployment with notifications via **Telegram Bot API**. Added **Django Debug Toolbar**, **Postman**, and **Swagger** tools for debugging and documentation
 
 **Tinkoff | Microservice application for tracking updates on StackOverflow and GitHub** 
 * Telegram Bot on **Java** using **Spring Boot** interacts with users. **Telegram Bot API** supports commands, finite state machines using **Spring State Machine**, and notification modes
@@ -72,14 +80,6 @@ Databases: PostgreSQL, SQLite, MicrosoftSQL, Redis, Flyway, Liquibase <br>
 * Data is stored in **PostgreSQL**, and **Flyway** is used to manage migrations.
 * The code is covered by tests using **JUnit** and **Mockito** for reliability.
   
-**Yandex | Social network for cooks** 
-* Backend implemented in **Python** with **Django** and **Django REST Framework**, including CRUD operations and authentication with **JWT** tokens and **Djoser**
-* Frontend is an SPA on **React** with JavaScript, Bootstrap styling, HTML, and CSS for the interface.
-* **PostgreSQL** database for prod and **SQLite** for dev and test, migration management with **Django ORM**.
-* Deployment with **Nginx** as a reverse proxy and **Gunicorn** for the WSGI server. Services in isolated **Docker** containers with **Docker Compose** orchestration.
-* The code is covered by **Pytest** tests and **Flake8**, **Ruff**, **Black**, and **Mypy**
-* **CI/CD** using **GitHub Actions** for test automation, building on Docker Hub, and deployment with notifications via **Telegram Bot API**. Added **Django Debug Toolbar**, **Postman**, and **Swagger** tools for debugging and documentation
-
 <!--
 **Sirazetdinova/Sirazetdinova** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
